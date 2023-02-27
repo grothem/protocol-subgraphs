@@ -3,6 +3,11 @@ description: Aave protocol subgraph
 repository: https://github.com/aave/protocol-subgraphs
 schema:
   file: ./schema.graphql
+features:
+  - grafting
+graft:
+  base: QmR9NdZjz4K2Hbs5ihHAe7YycpF3HXksfCxH8Ah2KLw796
+  block: 16704131
 dataSources:
   # --------------------------------------
   #      ORACLES / PRICE PROVIDERS
